@@ -10,7 +10,7 @@ I merged the permit request data with a variety of spatial data taken from the C
 
 ## Analysis 
 
-The linear and random forest regressions I ran and accompanying validation and analysis can be found in 'restaurants_regressions.ipynb'. 
+The linear amd random forest regressions I ran and accompanying validation and analysis can be found in 'restaurants_regressions.ipynb'. I used the models to predict the number of years a restaurant would stay open given closure rates since 2010. 
 
 ## Flask Web App 
 
