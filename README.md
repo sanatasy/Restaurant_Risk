@@ -8,6 +8,8 @@ I used NYC Open Data's Food Permits Requests database to estimate restauration d
 
 I merged the permit request data with a variety of spatial data taken from the Census and other NYC Open Data sources (subway entrances, restaurant grades, etc.) The spatial joins of these datasets can be found in 'geopandas_restaurant_address.ipynb'. 
 
+More information about NYC Food Permit requests can be found here: https://www1.nyc.gov/nycbusiness/description/food-service-establishment-permit/about
+
 ## Analysis 
 
 The linear amd random forest regressions I ran and accompanying validation and analysis can be found in 'restaurants_regressions.ipynb'. I used the models to predict the number of years a restaurant would stay open given closure rates since 2010. 
